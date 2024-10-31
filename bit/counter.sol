@@ -28,4 +28,7 @@ contract BIT_KCA {
     }
 
     //function to update the message
+    function setMessage(string memory newMessage) public {
+        message = newMessage;
+    }
 }

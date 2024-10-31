@@ -60,6 +60,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -90,11 +103,11 @@
 	},
 	"sources": {
 		"bit/counter.sol": {
-			"keccak256": "0x3f6e2cd5845ec39a1c6bf77c72b79214ead0ca859c1afbd999f63b29708162d0",
+			"keccak256": "0x164f6535de50605ce40e7475b760350131c57bc301487fff699ba1f5bbc3c9c4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a7d9f30f5aef7e9a950ed9747535536db6b7422dd1e4814793f916c8849018e0",
-				"dweb:/ipfs/QmUryE41dyPRyM75cgUdfH6z1NYvzwzzrpcrRYtuBRoDah"
+				"bzz-raw://f345ef2a95533bed040806d0bf66a2373cb8d427039962c37939f648200e2f12",
+				"dweb:/ipfs/QmTz7TEW2QmsorMgDsuTsBvMD2Z1qUYdap5hq9udx1MFLq"
 			]
 		}
 	},
