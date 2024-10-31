@@ -1,18 +1,19 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.26;
+pragma solidity 0.8.0;
 
 contract BIT_KCA {
-    //declare state variables
+    //declaring the state variables
     uint256 number;
     string public message;
 
-    constructor(uint256 startingPoint, string memory startingMessage) {
-        number = startingPoint;
-        message = startingMessage;
+    //constructors
+    constructor(uint256 _startingPoint, string memory _startingMessage) {
+        number = _startingPoint;
+        message = _startingMessage;
     }
 
     //reading function
-    function getNumber() external view returns(uint256){
+    function getNumber() external view returns(uint256) {
         return number;
     }
 
@@ -28,7 +29,7 @@ contract BIT_KCA {
     }
 
     //function to update the message
-    function setMessage(string memory newMessage) public {
+    function setMessage(string memory newMessage) public  {
         message = newMessage;
     }
 }
