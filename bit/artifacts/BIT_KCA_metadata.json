@@ -6,6 +6,29 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "startingPoint",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "startingMessage",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "decreaseNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getNumber",
 				"outputs": [
@@ -13,6 +36,26 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increaseNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -47,11 +90,11 @@
 	},
 	"sources": {
 		"bit/counter.sol": {
-			"keccak256": "0x9bce86ce0ee480b253c319c4bbd430d76685a6c1f73dd48ea886ddf73c2e5015",
+			"keccak256": "0x3f6e2cd5845ec39a1c6bf77c72b79214ead0ca859c1afbd999f63b29708162d0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e6ba29ea62c770824d1af781cf625dbed82c43d76320c8a6d4fa5e1ef9336166",
-				"dweb:/ipfs/QmUkf3mHPuiDdjtzXQVHHX17ZV3HWLpWPvy9UjF1JYJ2Gn"
+				"bzz-raw://a7d9f30f5aef7e9a950ed9747535536db6b7422dd1e4814793f916c8849018e0",
+				"dweb:/ipfs/QmUryE41dyPRyM75cgUdfH6z1NYvzwzzrpcrRYtuBRoDah"
 			]
 		}
 	},
